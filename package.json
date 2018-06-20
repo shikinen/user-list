@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shikinen/react_user_list"
+    "url": "git+https://github.com/shikinen/user-list"
   },
   "author": "Rafal Miodowski",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shikinen/react_user_list/issues"
+    "url": "https://github.com/shikinen/user-list/issues"
   },
-  "homepage": "https://github.com/shikinen/react_user_list#readme",
+  "homepage": "https://github.com/shikinen/user-list#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
