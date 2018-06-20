@@ -1,0 +1,44 @@
+{
+  "name": "user_list",
+  "version": "1.0.0",
+  "description": "simple react user list management app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "deploy": "webpack && surge -p ./build/ -d rafal-user-list.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikinen/react_user_list"
+  },
+  "author": "Rafal Miodowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikinen/react_user_list/issues"
+  },
+  "homepage": "https://github.com/shikinen/react_user_list#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "surge": "^0.20.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-confirm-alert": "^2.0.2",
+    "react-dom": "^16.4.1",
+    "validator": "^10.4.0"
+  }
+}
