@@ -1,0 +1,23 @@
+.app-container {
+    margin: 10rem auto;
+    flex: 1;
+    display: flex;
+}
+
+.app {
+    margin: auto;
+    background-color: $subtle-grey;
+    min-width: 40%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    width: 90%;
+    &__header {
+        font-weight: 100;
+        font-size: $header-font-size;
+    }
+}

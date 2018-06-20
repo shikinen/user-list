@@ -1,0 +1,17 @@
+//COLORS
+$primary-color: #00dbde ;
+$secondary-color: #fc00ff; 
+$color-white: #fff;
+$color-black: #000;
+$subtle-grey: #f7f7f7;
+$main-grey: #bbb;
+$color-text-primary: #777;
+$color-text-error: #f53b57;
+$color-text-error: #f53b57;
+
+//GRADIENTS
+$primary-gradient: linear-gradient(45deg, $primary-color, $secondary-color);
+
+//SIZES
+$default-font-size: 1.6rem;
+$header-font-size: $default-font-size * 2;

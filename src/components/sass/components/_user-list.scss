@@ -1,0 +1,51 @@
+.users {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 2rem 0;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__record-list {
+        list-style-type: none;
+    }
+
+    &__record {
+        padding: 3rem 4rem;
+        box-shadow: 0 1rem 2rem -5px #E0E0E0;
+        transform-origin: center;
+        transition: all 0.2s;
+        will-change: transform;
+        &:hover {
+            transform: translateY(-1rem);
+            box-shadow: 0 1.5rem 2.5rem -5px #E0E0E0;
+        }
+        &:not(:last-child) {
+            margin-bottom: 4rem;   
+        }
+
+        &__item:not(:last-child) {
+            margin-bottom: 1rem;   
+        }
+    }
+    &__record-item {
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+        &_name {
+            font-size: 3rem;
+
+        }
+        &_label {
+            font-size: $default-font-size;
+            font-weight: 400;
+        }
+    }
+}
+
+
+

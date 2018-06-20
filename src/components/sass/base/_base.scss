@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: $default-font-size;
+    color: $color-text-primary;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    background-image: $primary-gradient;
+    min-height: 100vh;
+}
+
+::selection {
+    background-color: $primary-color;
+    color: $color-white;
+}

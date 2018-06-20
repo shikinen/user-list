@@ -1,0 +1,48 @@
+
+.react-confirm-alert {
+    background-color: rgba($color-black, .8);
+    position: fixed;
+    z-index: 2000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    &-body {
+        background-color: $color-white;
+        margin: auto;
+        padding: 5rem 7rem;
+    }
+    h1 {
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+
+    &-button-group {
+        margin-top: 2rem;
+    }
+    button {
+        &,
+        &:active,
+        &:visited {
+            margin-right: 3rem;
+            background-image: none;
+            border: none;
+            font-size: $default-font-size;
+            color: $secondary-color;
+            background-color: transparent;
+            padding: 0;
+            transition: all .2s;
+            cursor: pointer;
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow: none;
+                color: $color-text-primary;
+            }
+        }
+    }
+    &-svg {
+        display: none;
+    }
+}
